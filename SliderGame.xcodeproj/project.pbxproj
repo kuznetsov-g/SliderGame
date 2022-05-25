@@ -11,6 +11,9 @@
 		2C4C3DF2283D3B2D0058D8D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4C3DF1283D3B2D0058D8D2 /* ContentView.swift */; };
 		2C4C3DF4283D3B2F0058D8D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C4C3DF3283D3B2F0058D8D2 /* Assets.xcassets */; };
 		2C4C3DF7283D3B2F0058D8D2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C4C3DF6283D3B2F0058D8D2 /* Preview Assets.xcassets */; };
+		2C4C3E00283D3CF50058D8D2 /* UISlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4C3DFF283D3CF50058D8D2 /* UISlider.swift */; };
+		2C4C3E02283D4EBF0058D8D2 /* LogicFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4C3E01283D4EBF0058D8D2 /* LogicFile.swift */; };
+		2C4C3E04283D4F690058D8D2 /* ContentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4C3E03283D4F690058D8D2 /* ContentButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		2C4C3DF1283D3B2D0058D8D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2C4C3DF3283D3B2F0058D8D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C4C3DF6283D3B2F0058D8D2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2C4C3DFF283D3CF50058D8D2 /* UISlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISlider.swift; sourceTree = "<group>"; };
+		2C4C3E01283D4EBF0058D8D2 /* LogicFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogicFile.swift; sourceTree = "<group>"; };
+		2C4C3E03283D4F690058D8D2 /* ContentButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +57,11 @@
 		2C4C3DEE283D3B2D0058D8D2 /* SliderGame */ = {
 			isa = PBXGroup;
 			children = (
+				2C4C3E03283D4F690058D8D2 /* ContentButton.swift */,
 				2C4C3DEF283D3B2D0058D8D2 /* SliderGameApp.swift */,
 				2C4C3DF1283D3B2D0058D8D2 /* ContentView.swift */,
+				2C4C3E01283D4EBF0058D8D2 /* LogicFile.swift */,
+				2C4C3DFF283D3CF50058D8D2 /* UISlider.swift */,
 				2C4C3DF3283D3B2F0058D8D2 /* Assets.xcassets */,
 				2C4C3DF5283D3B2F0058D8D2 /* Preview Content */,
 			);
@@ -137,6 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C4C3E02283D4EBF0058D8D2 /* LogicFile.swift in Sources */,
+				2C4C3E00283D3CF50058D8D2 /* UISlider.swift in Sources */,
+				2C4C3E04283D4F690058D8D2 /* ContentButton.swift in Sources */,
 				2C4C3DF2283D3B2D0058D8D2 /* ContentView.swift in Sources */,
 				2C4C3DF0283D3B2D0058D8D2 /* SliderGameApp.swift in Sources */,
 			);
